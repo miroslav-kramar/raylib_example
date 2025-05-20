@@ -2,6 +2,10 @@
 
 Self-contained small raylib example project structure. Precompiled raylib 5.5 library is bundled since ease of use is the top priority.
 
+Useful links:
+- [raylib website](https://www.raylib.com/)
+- [raylib GitHub](https://github.com/raysan5/raylib)
+
 ## What to do?
 
 Copy the template or example directory, or work directly in either of them. Alter the main.c file as you please.
