@@ -1,1 +1,3 @@
-# raylib_example
+# raylib example
+
+An example small raylib app structure
