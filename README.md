@@ -1,3 +1,3 @@
 # raylib example
 
-An example small raylib app structure
+Self-contained small raylib example project structure
