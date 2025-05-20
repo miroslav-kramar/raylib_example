@@ -11,11 +11,7 @@
 
 // Pomocne funkce
 
-// Specificke konstanty a promenne
-#define MAX_SQUARE_SIZE (SCREEN_HEIGHT * 0.95)
-#define MIN_SQUARE_SIZE (SCREEN_HEIGHT * 0.45)
-int square_size;
-Color square_color;
+// Specificke konstanty a promenne (muze byt zabaleno do context struktury)
 
 // Inicializace promennych aplikace
 void init_app() {
