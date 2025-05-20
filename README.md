@@ -30,4 +30,4 @@ You must have Visual Studio installed. Open the `x64 Native Tools Command Prompt
 
 ### Windows (MinGW)
 
-TODO
+Good old MinGW seems to have some problems compiling the program. Just install MSVC or switch to Linux for now :-D.
