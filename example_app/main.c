@@ -17,7 +17,7 @@ Color random_color() {
 	return (Color){r, g, b, 255};
 }
 
-// Specificke konstanty a promenne
+// Specificke konstanty a promenne (muze byt zabaleno do context struktury)
 #define MAX_SQUARE_SIZE (SCREEN_HEIGHT * 0.95)
 #define MIN_SQUARE_SIZE (SCREEN_HEIGHT * 0.45)
 int square_size;
