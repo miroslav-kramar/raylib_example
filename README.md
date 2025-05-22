@@ -2,8 +2,8 @@
 
 Ukázka/šablona malého programu v C s použitím knihovny raylib. V rámci zachování jednoduchosti je předkompilovaná knihovna raylib 5.5 již součástí repozitáře.
 
-Useful links:
-- [raylib website](https://www.raylib.com/)
+Užitečné odkazy:
+- [hlavní stránka raylib](https://www.raylib.com/)
 - [raylib GitHub](https://github.com/raysan5/raylib)
 
 ## Co s šablonou dělat?
