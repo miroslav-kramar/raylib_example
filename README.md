@@ -1,23 +1,24 @@
 # raylib example
 
-Self-contained small raylib example project structure. Precompiled raylib 5.5 library is bundled since ease of use is the top priority.
+Ukázka/šablona malého programu v C s použitím knihovny raylib. V rámci zachování jednoduchosti je předkompilovaná knihovna raylib 5.5 již součástí repozitáře.
 
 Useful links:
 - [raylib website](https://www.raylib.com/)
 - [raylib GitHub](https://github.com/raysan5/raylib)
 
-## What to do?
+## Co s šablonou dělat?
 
-Copy the template or example directory, or work directly in either of them. Alter the main.c file as you please.
+Zkopírujte si `template` nebo `example_app` složku, nebo pracujte přímo v nich. Kód slouží pouze jako ukázka, můžete ho libovolně měnit.
 
-## How to run?
+## Jak program zkompilovat a pustit?
 
 > [!WARNING]
-> You must maintain strict directory structure. The build script's parent directory must be located in the same directory as the `raylib` directory. Any other way and the build scripts will not work.
+> Build skripty pro kompilaci obsahují relativní cesty a bez úpravy přestanou fungovat, pokud nezachováte přesnou souborovou strukturu.
+> Složka aplikace (`template`, `example_app`, ...) se musí nacházet na stejné úrovni, jako složka s knihovnou `raylib`. V opačném případě musíte změnit relativní cesty ve skriptech.
 
-### Linux (GCC)
+### Platforma GNU/Linux (kompilátor GCC)
 
-First make sure the build script inside the directory is executable. Then run it.
+Nejdřív se ujistěte, že build skript je spustitelný. Poté ho spusťte:
 
 ```bash
 $ chmod 755 build_linux.sh
@@ -25,9 +26,9 @@ $ ./build_linux.sh
 $ ./main.elf
 ```
 
-### Windows (MSVC)
+### Platforma Windows (kompilátor MSVC)
 
-You must have Visual Studio installed. Open the `x64 Native Tools Command Prompt for VS 2022` (or similar depending on the version) and navigate to the working directory. Then execute the batch file.
+Musíte mít nainstalované Visual Studio 2022 (nebo jiné). Otevřte konzoli `x64 Native Tools Command Prompt for VS 2022` (nebo podobnou v závislosti na verzi) a přesuňte se do pracovního adresáře. Poté pusťte build skript (`.bat`):
 
 ```
 > build_win_msvc.bat
@@ -36,4 +37,4 @@ You must have Visual Studio installed. Open the `x64 Native Tools Command Prompt
 
 ### Windows (MinGW)
 
-Good old MinGW seems to have some problems compiling the program. Just install MSVC or switch to Linux for now :-D.
+Zdá se, že staré dobré MinGW má bohužel problém s kompilací programu. Jako alternativu můžete prozatím zvolit MSVC nebo se přesunout na platformu Linux :-D.
