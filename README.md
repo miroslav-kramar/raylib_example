@@ -35,6 +35,6 @@ Musíte mít nainstalované Visual Studio 2022 (nebo jiné). Otevřte konzoli `x
 > main.exe
 ```
 
-### Windows (MinGW)
+### Platforma Windows (kompilátor MinGW)
 
 Zdá se, že staré dobré MinGW má bohužel problém s kompilací programu. Jako alternativu můžete prozatím zvolit MSVC nebo se přesunout na platformu Linux :-D.
