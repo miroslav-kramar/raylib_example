@@ -22,6 +22,7 @@ First make sure the build script inside the directory is executable. Then run it
 ```bash
 $ chmod 755 build_linux.sh
 $ ./build_linux.sh
+$ ./main.elf
 ```
 
 ### Windows (MSVC)
@@ -30,6 +31,7 @@ You must have Visual Studio installed. Open the `x64 Native Tools Command Prompt
 
 ```
 > build_win_msvc.bat
+> main.exe
 ```
 
 ### Windows (MinGW)
