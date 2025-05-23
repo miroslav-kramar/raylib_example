@@ -1,4 +1,4 @@
-#include <raylib.h>
+#include "../raylib/include/raylib.h"
 
 #define SCREEN_WIDTH	940
 #define SCREEN_HEIGHT	560
